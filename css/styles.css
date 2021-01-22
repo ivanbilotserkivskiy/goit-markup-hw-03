@@ -7,17 +7,50 @@ body {
     font-family: var(--text-font);
     color: #757575;
     } 
-ul,
-ol {
-    list-style: none;
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6,
+    p {
+      margin: 0;
+    }
+    
+    ul,
+    ol {
+      margin: 0;
+      padding: 0;
+    }
+    
+    img {
+      display: block;
+    }
+    
+    .list {
+      list-style: none;
+    }
+    
+    .link {
+      text-decoration: none;
+    }
+    
+    .address {
+      font-style: normal;
+    }
+    .container {
+        width: 1200px;
+        padding-left: 15px;
+        padding-right: 15px;
+        margin: 0 auto;
+    }
+
+/* --header section-- */
+.header .container {
+    display: flex;
+    align-content: center;
 }
-a {
-    text-decoration: none;
-}
-address {
-    font-style: normal;
-}
-/* logotype */
 .logotype {
 font-weight: bold;
 font-size: 26px;
@@ -25,6 +58,9 @@ line-height: 1.19;
 letter-spacing: 0.03em;
 font-family: var(--logotype-font);
 color: #2196F3;
+margin-right: 93px;
+padding-bottom: 25px;
+padding-top: 25px;
 }
 .logotype-light-theme {
     color: #000000;
@@ -32,8 +68,17 @@ color: #2196F3;
 .logotype-dark-theme {
     color: #ffffff;
 }
-/* End logotype */
-/* navigation header */
+.navigation {
+    display: flex;
+    align-items: center;
+}
+.navigation-list{
+    display: flex;
+    align-items: center;
+}
+.navigation-list-item:not(:last-child){
+    margin-right: 50px;
+}
 .navigation-list-item-link {
 font-weight: 500;
 font-size: 14px;
@@ -43,6 +88,22 @@ letter-spacing: 0.02em;
 .navigation-list-item-link:hover,
 .navigation-list-item-link:focus {
     color: var(--accent-color)
+}
+.address-header {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+}
+.address-list{
+    display: flex;
+    align-items: center;
+}
+.address-list-item{
+    display: flex;
+    align-items: center;
+}
+.address-list-item:not(:last-child) {
+    margin-right: 50px;
 }
 .email-link {
     font-style: normal;
@@ -68,25 +129,52 @@ letter-spacing: 0.02em;
 .tel-link:focus {
     color: var(--accent-color)
 }
-/* end navigation header */
-/* Main Hero */
-.order-title {
+/* --end header section-- */
 
-font-weight: 900;
-font-size: 44px;
-line-height: 1.36;
-color: #FFFFFF;
-text-transform: uppercase;
-text-align: center;
-letter-spacing: 0.06em;
+/* Main Hero */
+
+/* Order */
+.order .container{
+    display: flex;
+    align-items: center;
+    height: 600px;
+    width: 1600px;
+    background-color: #2F303A;
+    flex-direction: column;
+}
+.order-title {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 0.06em;
+    margin-right: 450px;
+    margin-left: 450px;
+    margin-top: 200px;
+    margin-bottom: 30px;
+    width: 650px;
 }
 .order-button{
     font-size: 16px;
     line-height: 1.86;
     background-color: var(--accent-color);
     color: #ffffff;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    border-style: none;
+    width: 200px;
+    height: 50px;   
+    margin-right: 700px;
+    margin-left: 700px;
+    margin-bottom: 200px;
 }
+
+/* End order */
+
 /* End Hero */
+
 /* Adventages */
 .adv-title{
     color:rgba(255, 255, 255, 0)
