@@ -1,0 +1,224 @@
+:root {
+    --text-font: "Roboto", sans-serif;
+    --logotype-font: "Raleway", sans-serif;
+    --accent-color: #2196F3;
+  }
+body {
+    font-family: var(--text-font);
+    color: #757575;
+    } 
+ul,
+ol {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
+address {
+    font-style: normal;
+}
+/* logotype */
+.logotype {
+font-weight: bold;
+font-size: 26px;
+line-height: 1.19;
+letter-spacing: 0.03em;
+font-family: var(--logotype-font);
+color: #2196F3;
+}
+.logotype-light-theme {
+    color: #000000;
+}
+.logotype-dark-theme {
+    color: #ffffff;
+}
+/* End logotype */
+/* navigation header */
+.navigation-list-item-link {
+font-weight: 500;
+font-size: 14px;
+line-height: 1.142;
+letter-spacing: 0.02em;
+}
+.navigation-list-item-link:hover,
+.navigation-list-item-link:focus {
+    color: var(--accent-color)
+}
+.email-link {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: #757575;
+}
+.tel-link {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: #757575;
+}
+.email-link:hover,
+.email-link:focus {
+    color: var(--accent-color)
+}
+.tel-link:hover,
+.tel-link:focus {
+    color: var(--accent-color)
+}
+/* end navigation header */
+/* Main Hero */
+.order-title {
+
+font-weight: 900;
+font-size: 44px;
+line-height: 1.36;
+color: #FFFFFF;
+text-transform: uppercase;
+text-align: center;
+letter-spacing: 0.06em;
+}
+.order-button{
+    font-size: 16px;
+    line-height: 1.86;
+    background-color: var(--accent-color);
+    color: #ffffff;
+}
+/* End Hero */
+/* Adventages */
+.adv-title{
+    color:rgba(255, 255, 255, 0)
+}
+.adv-list-item-title {
+font-weight: 700;
+font-size: 14px;
+line-height: 1.142px;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: #212121;
+}
+.adv-list-item-text {
+font-size: 14px;
+line-height: 1.71;
+letter-spacing: 0.03em;
+}
+/* End Adventages */
+
+/* What are we doing */
+.work-title {
+font-weight: 700;
+font-size: 36px;
+line-height: 1.16;
+text-align: center;
+letter-spacing: 0.03em;
+color: #212121;
+}
+/* End What are we doing */
+
+/* About us */
+.aboutus-title {
+font-weight: 700;
+font-size: 36px;
+line-height: 1.16;
+text-align: center;
+letter-spacing: 0.03em;
+color: #212121;
+}
+.aboutus-list-item-title {
+font-weight: 500;
+font-size: 16px;
+line-height: 1.18px;
+text-align: center;
+letter-spacing: 0.03em;
+color: #212121;
+}
+.aboutus-list-item-text {
+font-size: 16px;
+line-height: 1.18;
+text-align: center;
+letter-spacing: 0.03em;
+}
+/* End About us */
+
+/* footer links */
+
+.footer-address-location {
+font-weight: normal;
+font-size: 14px;
+line-height: 1.71;
+letter-spacing: 0.03em;
+color: #FFFFFF;
+}
+.footer-tel-link{
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 1.71;
+letter-spacing: 0.03em;
+color: rgba(255, 255, 255, 0.6);
+}
+.footer-tel-link:hover,
+.footer-tel-link:focus{
+    color: var(--accent-color)
+}
+.footer-email-link {
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 1.71;
+letter-spacing: 0.03em;
+color: rgba(255, 255, 255, 0.6);
+}
+.footer-email-link:hover,
+.footer-email-link:focus{
+    color: var(--accent-color)
+}
+
+/* End footer links */
+
+/* Portfolio page */
+
+/* Portfolio buttons */
+.portfolio_buttons-title{
+    color:rgba(255, 255, 255, 0);
+}
+.portfolio_buttons-list-item-text {
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.62;
+text-align: center;
+letter-spacing: 0.03em;
+color: #212121;
+}
+.portfolio_buttons-list-item-text:hover,
+.portfolio_buttons-list-item-text:focus{
+    background-color: var(--accent-color);
+    color: #ffffff;
+}
+/* End portfolio buttons */
+/* Portfolio products */
+.portfolio-title {
+color:rgba(255, 255, 255, 0);
+}
+.portfolio-list-item-title{
+font-weight: 700;
+font-size: 18px;
+line-height: 2.00;
+letter-spacing: 0.06em;
+color: #212121;
+}
+.portfolio-list-item-text {
+font-weight: normal;
+font-size: 16px;
+line-height: 1.87;
+letter-spacing: 0.03em;
+color: #757575;
+}
+.portfolio_buttons-list-item-text-chosen {
+    background-color: var(--accent-color);
+    color: #ffffff;
+}
+/* end portfolio */
