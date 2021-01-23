@@ -141,13 +141,11 @@ letter-spacing: 0.02em;
 .order .container{
     display: flex;
     align-items: center;
-    background-color: #2F303A;
     flex-direction: column;
     justify-content: center;
 }
 .order{
-    padding-right: 200px;
-    padding-left: 200px;
+    background-color: #2F303A;
 }
 .order-title {
     font-weight: 900;
