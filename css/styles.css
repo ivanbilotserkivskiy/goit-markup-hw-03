@@ -52,7 +52,7 @@ body {
     align-content: center;
 }
 .header{
-    border: 1px solid #ECECEC;
+    border-bottom: 1px solid #ECECEC;
 }
 
 .logotype {
@@ -181,7 +181,7 @@ letter-spacing: 0.02em;
 /* End Hero */
 
 /* Adventages */
-.adv .container{
+.adv {
     padding-bottom: 95px;
     padding-top: 95px;
 }
@@ -244,8 +244,6 @@ color: #212121;
 /* About us */
 .aboutus {
     background-color: #F5F4FA;
-    padding-right: 200px;
-    padding-left: 200px;
     padding-top: 95px;
     padding-bottom: 95px;
 }
@@ -263,11 +261,16 @@ margin-bottom: 50px;
     align-content: center;
     display: flex;
     margin: -15px;
+
 }
 .aboutus-list-item{
     margin: 15px;
     background-color: #ffffff;
     border: 1px solid #EEEEEE;
+    background: #FFFFFF;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
+
 }
 .aboutus-list-item-images{
     margin-bottom: 30px;
@@ -341,11 +344,11 @@ color: rgba(255, 255, 255, 0.6);
 
 /* Portfolio buttons */
 .portfolio {
-    margin-bottom: 95px;
+    padding-bottom: 95px;
 }
 .portfolio_buttons-list {
-    margin-top: 95px;
-    margin-bottom: 50px;
+    padding-top: 95px;
+    padding-bottom: 50px;
     display: flex;
     align-content: center;
     justify-content: center;
@@ -397,9 +400,6 @@ line-height: 2.00;
 letter-spacing: 0.06em;
 color: #212121;
 margin-bottom: 5px;
-margin-left: 25px;
-margin-top: 20px;
-margin-right: 25px;
 }
 .portfolio-list-item-text {
 font-weight: normal;
@@ -407,9 +407,12 @@ font-size: 16px;
 line-height: 1.87;
 letter-spacing: 0.03em;
 color: #757575;
-margin-bottom: 20px;
-margin-left: 25px;
-margin-right: 25px;
+}
+.portfolio-list-div{
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 .portfolio_buttons-list-item-text-chosen {
     background-color: var(--accent-color);
